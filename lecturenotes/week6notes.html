@@ -1,0 +1,41 @@
+!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Week 6 CSS Intro</title>
+<style>
+        /* below we have a grouped selector */
+    p, ul {color: purple;
+        font-family:Arial, helvetica, sans-serif; 
+        text-decoration: underline;
+    }
+    p a {
+        /* descendant selector */
+        color: green; 
+    }
+    #firstparagraph {
+        color: brown
+    }
+    .pinktext {
+        color: pink;
+    }
+    a {
+        text-decoration: none;
+    }
+    
+</style>
+</head>
+<body>
+    <a href="http://www.amazon.com">Amazon</a>
+    <!-- id values must be unique -->
+    <p> Lorem ipsum dolor sit amet, <a href="http://www.google.com"></a>consectetur, adipisicing elit. Deserunt cum, numquam sint vitae ex quis soluta! Illum ducimus ipsam laboriosam placeat, blanditiis quasi delectus quidem commodi officia, ab cupiditate ex.
+    </p>
+    <ul>
+        <li>green</li>
+        <li>blue</li>
+    </ul>
+    <p>I'm excited it's almost Halloween!</p>
+    <p class="pinktext">I'm going to be a ghost.</p>
+</body>
+</html>

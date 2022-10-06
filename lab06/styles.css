@@ -1,0 +1,17 @@
+
+body{font-family:Arial, helvetica, sans-serif;}
+
+p a {
+    color: gray; 
+}
+
+h1 h2 {
+    color: green; 
+}
+
+tr {
+    color: green; 
+    
+}
+
+.evenrow{background-color: aquamarine;}
