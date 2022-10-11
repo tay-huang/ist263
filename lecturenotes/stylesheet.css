@@ -10,6 +10,13 @@ a:visited {
 
 body {
     background-color: #000000;
+}
+
+p {
     background-image: url("../images/pumpkin.png");
-    background-repeat: no-repeat;
+
+}
+
+.second {
+    border: 2px solid #fcfcfc; 
 }
