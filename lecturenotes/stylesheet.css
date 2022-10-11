@@ -1,14 +1,15 @@
 a:hover {
-    color: #fcfcfc
+    color: #fcfcfc;
 
 }
 
 a:visited {
 
-    color: #909090
+    color: #909090;
 }
 
 body {
     background-color: #000000;
-    background-image: url("../images/pumpkin.png")
+    background-image: url("../images/pumpkin.png");
+    background-repeat: no-repeat;
 }
