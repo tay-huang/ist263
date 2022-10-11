@@ -9,7 +9,7 @@ a:visited {
 }
 
 body {
-    background-color: #000000;
+    background-color: #eb4034
 }
 
 p {
@@ -18,7 +18,7 @@ p {
 }
 
 .second {
-    border: 2px solid #fcfcfc; 
+    border: 2px solid #baeb34; 
     margin: 20px; 
     padding: 10px; 
 }
