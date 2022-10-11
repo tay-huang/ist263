@@ -5,13 +5,11 @@ a:hover {
 
 
 body {
-    background-color: #eb4034
-}
-
-p {
+    background-color: #eb4034;
     background-image: url("../images/otto.png");
-
 }
+
+
 
 .second {
     border: 2px solid #baeb34; 
