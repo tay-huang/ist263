@@ -6,16 +6,8 @@
             body {background-color: #999999;}
             img {width: 150px;}
            /* footer colors background is #000e54, text is #c9cbd0 */
-           .row1, .row2 /* group selecters work with classes too */ {
-            display: flex;
-           }
-           .row1_div {
-                flex: 1; 
-           }
-            div {
-            border: 1px solid #ff0000;
-           }
-
+           .row1, .row2 {display: flex; background-color: #cce5ff; border-radius: 1em; padding: 20px; margin: 20px;}
+            .linkedin, .friends {margin: 80px}
         </style>
 
         <title>Contact Info</title>
@@ -32,14 +24,13 @@
 
         <h1>Contact</h1>
     <div class="row1">
-    <div>
-        <div>
+        <div class="address">
             <p> 
             Taylor Huang<br>
             417 Comstock Avenue<br>
             Syracuse, NY 13210
         </p></div>
-        <div><p>
+        <div class="linkedin"><p>
             <a href="mailto:thuang21@syr.edu">thuang21@syr.edu</a><br>
         <a href="https://www.linkedin.com/in/taylorjhuang/">My LinkedIn Profile</a><br>
             <a href="https://www.linkedin.com/in/taylorjhuang/">
@@ -49,13 +40,12 @@
     </div>
 
     <div class="row2">
-    <div>
-        <div>
+        <div class="maps">
         <p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.9531463262865!2d-76.13221638482254!3d43.04241729972846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f30af7181d95%3A0x58d5a4c398db10ad!2s417%20Comstock%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1663252095780!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
         </p></div>
             
-        <div>
+        <div class="friends">
         <h1>Let's be friends!</h1>
         <form method="post" action="https://formspree.io/f/myyvwzkk">
             <label for="fullname">Enter full name:</label>
