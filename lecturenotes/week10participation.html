@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 10 Notes Responsive Design</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {font-family: Arial, Helvetica, sans-serif;}
+            .row1 { 
+                padding: 80px;
+                margin-top: 40px;
+                display: flex;
+                flex-wrap: wrap; /* must be on the row if the flex box*/
+                /* says column will wrap if there's not enough space*/
+            }
+            .row1 div {
+                padding: 40px;
+                flex: 1; /* if you are sizing, must size flex box columns */
+            }
+            .banner, .bannersmall {
+                width: 100%;
+            }
+            bannersmall{
+                max-width: 100%
+            }
+            @media only screen and (max-width: 800px) {
+                .banner{display: none}
+            }
+            @media only screen and (min-width: 799px) {
+                .bannersmall {display: none;}
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- large width banner image -->
+        <div class="banner"><p>I'm Large</p></div>
+
+        <!-- smaller width banner image -->
+        <div class="bannersmall"><p>I'm Small</p></div>
+
+    </body>
+</html>
