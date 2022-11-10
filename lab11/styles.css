@@ -4,7 +4,7 @@ body{font-family: Arial, helvetica, sans-serif;
 background-color: yellow;}
 
 p a {
-    color: gray; 
+    color: blue; 
 }
 
 h1 h2 {
@@ -19,7 +19,7 @@ h1 h2 {
 
 nav a{background-color: #ff4000;}
 
-nav a{color: #ff4000;}
+nav a{color: #00cc00;}
 
 nav a:hover{color: #b734eb}
     
