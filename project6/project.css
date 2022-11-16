@@ -1,0 +1,7 @@
+@media only screen and (max-width: 600px) 
+{
+    .footer{width: 100%; display: block;  
+        padding: 10px; }
+}
+.social-links{float: right; margin: 150px}
+.clear {clear: both; }

@@ -9,9 +9,9 @@
         .nav {float: right;}
         .heading1 {float: right; display: flex; text-align: right;}
        /* .paragraph {float: right; display: flex; text-align: right;}*/
-        .footer{max-width:100%; display: flex; border-radius: 1em; padding: 10px; flex: 1; margin: 10px}
+        .footer{max-width:100%; border-radius: 1em; padding: 10px; flex: 1; margin: 10px}
         .letsconnect{float: left; margin: 150px}
-        .contact{float: center; margin: 150px}
+        .contact{margin: 150px}
         .social-links{float: right; margin: 150px}
         .banner {max-width: 100%}
         .blurb {max-width:100%; display: flex; background-color: #cce5ff; border-radius: 1em; padding: 10px; flex: 1; margin: 10px}
@@ -43,17 +43,25 @@
     </div>
     <footer>
         <div class="footer">
-        <div class="letsconnect">
-        <h2>Let's Connect!</h2>
-        </div>
-        <div class="contact">
+        <table style="margin-left:auto;margin-right:auto">
+            <tr>
+                <td style="width: 33%; padding: 00px">
+        <!-- <div class="letsconnect">-->
+
+        <h2>Let's Connect!</h2></td>
+        <!-- </div>-->
+        <!-- <div class="contact">-->
+        <td style="width: 33%; padding: 25px">
                 <p><a href="mailto:taylorjhuang@gmail.com">taylorjhuang@gmail.com</a><br>
                 718-913-0894<br>
-                </div>
-        <div class="social-links">
+            </div></td>
+        <!-- <div class="social-links">-->
+            <td style="width: 33%; padding: 25px">
             <a href="https://www.linkedin.com/in/taylorjhuang/"><img src="../images/LI-In-Bug.png" alt ="linkedin" width="60" height="50"></a>
             <a href="https://twitter.com/taylorjhuang"><img src="../project/pictures/twitter.png" alt ="twitter" width="60" height="50"></a>
-            </div> 
+            </div></td>
+        </tr>
+        </table>
             </div>
     
         </footer>
