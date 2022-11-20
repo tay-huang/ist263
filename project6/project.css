@@ -1,17 +1,11 @@
 @media only screen and (max-width: 600px) 
 {
-    .footer{width: 100%; display: block;  
-        padding: 10px; }
-}
-.social-links{float: right; margin: 150px}
-.clear {clear: both; }
-
-@media only screen and (max-width: 600px) 
-{
     nav a{width: 100%; display: block;  
         padding: 10px; }
     .blurb{width: 100%; display: block;  
     padding: 10px; }
     span {display: none;}
     .banner{max-width: 100%}
+    .footer{width: 100%; display: block;  
+        padding: 10px; }
 }
