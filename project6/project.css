@@ -1,4 +1,4 @@
-nav {
+.nav {
     margin-bottom: 40px; 
     padding: 10px;
     background-color: aliceblue;
@@ -8,10 +8,9 @@ nav {
 @media only screen and (max-width: 600px) 
 {
     .logo{float: above}
-    nav a{width: 100%; display: block;  
+    .nav a{max-width:100%; display: flex; background-color: #cce5ff; border-radius: 1em; padding: 10px; flex: 1; margin: 10px}/*{width: 100%; display: block;  
         margin-bottom:40px; 
-        padding: 10px;
-        float: right}
+        padding: 10px;}*/
     .blurb{width: 100%; display: block;  
     padding: 100px; }
     span {display: none;}
