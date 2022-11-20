@@ -10,6 +10,8 @@
 {
     nav a{width: 100%; display: block;  
         padding: 10px; }
+    .blurb{width: 100%; display: block;  
+    padding: 10px; }
     span {display: none;}
-    img a{max-width: 100%}
+    .banner{max-width: 100%}
 }
