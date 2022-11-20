@@ -8,7 +8,8 @@ nav {
 @media only screen and (max-width: 600px) 
 {
     nav a{width: 100%; display: block;  
-        padding: 10px; }
+        padding: auto; 
+        float: left}
     .blurb{width: 100%; display: block;  
     padding: 100px; }
     span {display: none;}
