@@ -1,5 +1,5 @@
 nav {
-    margin-bottom: 30px; 
+    margin-bottom: 40px; 
     padding: 10px; 
     background-color: aliceblue;
 }
@@ -7,8 +7,9 @@ nav {
 
 @media only screen and (max-width: 600px) 
 {
+    .logo{float: above}
     nav a{width: 100%; display: block;  
-        padding: auto; 
+        padding: 40px; 
         float: left}
     .blurb{width: 100%; display: block;  
     padding: 100px; }
