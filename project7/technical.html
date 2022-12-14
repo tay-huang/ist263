@@ -10,13 +10,22 @@
     <style>
         .nav {float: right;}
         .heading1 {display: flex; text-align: left;}
-        .footer{max-width:100%; display: flex; border-radius: 1em; padding: 10px; flex: 1; margin: 10px}
+        .footer{max-width:100%; display: flex; border-radius: 1em; padding: 10px; flex: 1; margin: 10px; flex-wrap: wrap;}
         .letsconnect{float: left; margin: 150px}
         .contact{margin: 150px}
         .social-links{float: right; margin: 150px}
         .banner{max-width: 100%}
         .twitter{float: right}
         .jobs {display: flex; flex-wrap: wrap}
+        .tern {display: flex; flex-wrap: wrap}
+        @media only screen and (max-width: 600px) 
+    { 
+        .nav a{max-width:100%; display: flex; float: center; background-color: aliceblue; border-radius: 1em; padding: 10px; flex: 1; margin: 10px; }
+        .blurb{text-align: right; flex-wrap: wrap;}
+        .name {text-align: right; flex-wrap: wrap;}
+        .footer{max-width:100%; display: flex; float: center; flex-wrap: wrap;}
+        span {display: none;}
+    }
     </style>
 </head>
 <body>
@@ -30,7 +39,8 @@
     </nav>
     <h1 style="text-align: center">Technical Projects</h1>
     <div class="jobs">
-    <div class="tern"><img src="../project/pictures/twitter.png" alt = "twitter" width="150" height="120">
+    <div class="tern">
+    <img src="../project/pictures/twitter.png" alt = "twitter" width="150" height="120">
     <h1>Twitter, Inc.</h1><br>
     <p>I interned on Twitter’s Source to Pay Team during the summer of 2022. In this role, I learned extensively about strategic sourcing and procurement, and gained a large swath of skills in data analytics and research. Some of the major projects I was assigned included building an email automation system via Google App Script to improve internal system processes and analyzing spend at Twitter’s largest strategic suppliers. At the end of the summer, I presented my findings to Twitter’s CAO. I could not be more grateful for this amazing learning experience!</p><br>
     </div>
@@ -50,7 +60,7 @@
     <p>The summer of 2021, I worked as a digital marketing intern for Lindley Consulting Group, LLC. Over the course of six weeks, I assisted creating graphics and growing the organization’s social media presence. I also helped in the early stages of a project called Gen Wealth Builders, which aims to provide financial literacy and professional development tools to women of color. I documented project milestones via Lucidchart and sketched website and app mockups using Figma.</p><br>
     </div>
 
-    <div class="itemize"><img src="../project/pictures/ItemizeBusinessCard.png" alt ="itemize" width="200" height="120"></td>
+    <div class="itemize"><img src="../project/pictures/ItemizeBusinessCard.png" alt ="itemize" width="200" height="120">
     <h1>Itemize Digital Marketing Project</h1><br>
     <p>During the spring of 2021, I was an intern for Itemize, an insurance technology startup. As an intern, I conducted market research, created visual mockups, communicated with campus organizations to increase our brand visibility.</p><br>
     </div>
@@ -59,6 +69,7 @@
     <h1>Youth Outreach Plan</h1><br>
     <p>During the summer of 2019, I was an intern for New York State Senator John C. Liu. Working together with my fellow interns, we designed a Youth Outreach Plan to engage young people in the community through social media, events, and merchandise sales. We then used Google Analytics to measure the success of our ideas and pitched our plan to the senator himself.</p><br>
     </div> 
+    </div>
     </div>
 
     <footer>

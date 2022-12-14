@@ -16,7 +16,8 @@
     span {display: none;}
     .banner{max-width: 100%; display: block;  
         padding: 100px; }
-    .editorial{max-width: 100%; display: block;  
+    .editorial{display: flex; max-width: 100%; display: block;  
         padding: 100px;}
-    .footer a{max-width: 100%}
+    .img a{display: flex;}
+    .footer a{max-width:100%; display: flex; background-color: aliceblue; border-radius: 1em; padding: 10px; flex: 1; margin: 10px; float: center}
 }
