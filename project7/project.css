@@ -7,8 +7,8 @@
 
 @media only screen and (max-width: 500px) 
 {
-    .logo{float: center; background-color: aliceblue;}
-    .nav a{max-width:100%; display: flex; background-color: aliceblue; border-radius: 1em; padding: 10px; flex: 1; margin: 10px; float: center}/*{width: 100%; display: block;  
+    .logo{float: center; background-color: #FBEAE7;}
+    .nav a{max-width:100%; display: flex; background-color: #FBEAE7; border-radius: 1em; padding: 10px; flex: 1; margin: 10px; float: center}/*{width: 100%; display: block;  
         margin-bottom:40px; 
         padding: 10px;}*/
     .blurb{width: 100%; display: block;  
@@ -19,5 +19,5 @@
     .editorial{display: flex; max-width: 100%; display: block;  
         padding: 100px;}
     .img a{display: flex;}
-    .footer a{max-width:100%; display: flex; background-color: aliceblue; border-radius: 1em; padding: 10px; flex: 1; margin: 10px; float: center}
+    .footer a{max-width:100%; display: flex; background-color: #FBEAE7; border-radius: 1em; padding: 10px; flex: 1; margin: 10px; float: center}
 }
