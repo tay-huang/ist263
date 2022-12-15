@@ -20,4 +20,5 @@
         padding: 100px;}
     .img a{display: flex;}
     .footer a{max-width:100%; display: flex; background-color: #FBEAE7; border-radius: 1em; padding: 10px; flex: 1; margin: 10px; float: center}
+    .end{max-width:100%; display: flex; background-color: #FBEAE7; border-radius: 1em; padding: 10px; flex: 1; margin: 10px; float: center}
 }
