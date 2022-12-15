@@ -11,11 +11,12 @@
         .nav {float: right;}
         .heading1{display: flex; text-align: left; margin: 10px; margin-top: 10px;border-radius: 1em; padding: 20px; margin: 20px;}
         .social-links{float: right; margin-right:10px;}
-        .mashed{max-width:100%; display: flex; border-color: #000000; margin: 10px; margin-top: 10px;border-radius: 1em; padding: 20px; float: left; margin: 150px; flex-wrap: wrap;}
+        /*.mashed{max-width:100%; display: flex; border-color: #000000; margin: 10px; margin-top: 10px;border-radius: 1em; padding: 20px; float: left; margin: 150px; flex-wrap: wrap;}
         .text1{display: flex; border-radius: 1em; padding: 20px; margin: 20px;}
         .hercampus{max-width:100%; display: flex; border-color: #000000; margin: 10px; margin-top: 10px;border-radius: 1em; padding: 20px; margin: 150px; flex-wrap: wrap;}
-        .odyssey{max-width:100%; display: flex; border-color: #000000; margin: 10px; margin-top: 10px;border-radius: 1em; padding: 20px; float: right; margin: 150px; flex-wrap: wrap;}
-        .editorial{max-width:100%; flex-wrap: wrap; display: flex; background-color: #cce5ff; border-radius: 1em; padding: 10px; flex: 1; margin: auto; flex-wrap: wrap}
+        .odyssey{max-width:100%; display: flex; border-color: #000000; margin: 10px; margin-top: 10px;border-radius: 1em; padding: 20px; float: right; margin: 150px; flex-wrap: wrap;}*/
+        .editorial{display: grid; grid-template-columns: 33.3% 33.3% 33.3%; grid-template-rows: auto;}
+        .grid-item {padding: 20px;font-size: 15px; text-align: center;}
         .row1{float: left; max-width:100%; display: flex; flex-wrap: wrap;}
         .row2{max-width:100%; display: flex; flex-wrap: wrap;}
         .text2{display: flex; border-radius: 1em; padding: 20px; margin: 20px;}
@@ -23,20 +24,23 @@
         .letsconnect{float: left; margin: 150px}
         .contact{text-align: center; margin: 150px}
         .social-links{float: right; margin: 150px}
-        .banner {max-width: 100%}
-        @media only screen and (max-width: 600px) 
+        .img a{max-width: 100%; max-height: 100%;}
+        .editorial, .footer{font-family: 'Lato', sans-serif;}
+        @media only screen and (max-width: 800px) 
     { 
         .nav a{max-width:100%; display: flex; float: center; background-color: aliceblue; border-radius: 1em; padding: 10px; flex: 1; margin: 10px; }
         .blurb{text-align: right; flex-wrap: wrap;}
         .name {text-align: right; flex-wrap: wrap;}
         .footer{max-width:100%; display: flex; float: center; flex-wrap: wrap;}
         span {display: none;}
+        .editorial{display: grid; grid-template-columns: 100%}
+        .grid-item {padding: 20px;font-size: 15px; text-align: center;}
     }
     </style>
 </head>
 <body>
         <nav>
-        <img class="logo" src="../project/pictures/huangtaylorlogo.png" alt ="logo">
+        <a href="home.html"><img src="../project/pictures/favicon.project.ico" alt ="logo"></a>
         <div class="nav">
             <a href="home.html">Home</a> <span>|</span>
             <a href="editorial.html">Editorial Work</a> <span>|</span>
@@ -45,16 +49,15 @@
         </nav>
 
         <div class="editorial">
-            <article class="mashed">
-            <a href="https://www.mashed.com/author/taylorhuang/"><img src="../project/pictures/mashed.png" alt ="mashed" width="200" height="50"></a><br>
-            <p>I am currently a writer at Mashed.com, an online food publication. I am assigned stories and forward pitches to editors on a regular basis. I have covered a large variety of topics, including Crumbl Cookies’ newest podcast to what Shaq really eats in a day. However, my favorite things to write about include plant-based cooking and food tech!</p>
-            </article>
-            <article class="hercampus">
-            <a href="https://www.hercampus.com/author/taylor-huang/"><img src="../project/pictures/hercampusmedia.png" alt ="hercampus" width="500" height="250"></a><br>
-            <p>I was previously an intern for Her Campus Media, where I worked extensively on Lifestyle and Wellness articles. I also led the publications “Behind the Feed” series for a period, where I organized social media influencers stories.</p></article>
-            <article class="odyssey">
-            <a href="https://www.theodysseyonline.com/user/@taylor_huang"><img src="../project/pictures/odyssey.png" alt ="odyssey" width="150" height="150"></a><br>
-            <p>During the summer of 2020, I was a Lifestyle Beat Creator for the Odyssey Online. I worked closely with the Lifestyle Editor to create engaging, informative written content for audiences. At the end of this program, I generated upwards of 220,000 views on my content, which consisted of product reviews, listicles, and food items.</p></article>
+            <div class="grid-item">
+            <a href="https://www.mashed.com/author/taylorhuang/"><img src="../project/pictures/mashed.png" alt ="mashed" ></a><br>
+            <p>I am currently a writer at Mashed.com, an online food publication. I am assigned stories and forward pitches to editors on a regular basis. I have covered a large variety of topics, including Crumbl Cookies’ newest podcast to what Shaq really eats in a day. However, my favorite things to write about include plant-based cooking and food tech!</p></div>
+            <div class="grid-item"> 
+                <a href="https://www.hercampus.com/author/taylor-huang/"><img src="../project/pictures/hercampusmedia.png" alt ="hercampus"></a><br>
+            <p>I was previously an intern for Her Campus Media, where I worked extensively on Lifestyle and Wellness articles. I also led the publications “Behind the Feed” series for a period, where I organized social media influencers stories.</p></div>
+            <div class="grid-item">
+                <a href="https://www.theodysseyonline.com/user/@taylor_huang"><img src="../project/pictures/odyssey.png" alt ="odyssey"></a><br>
+            <p>During the summer of 2020, I was a Lifestyle Beat Creator for the Odyssey Online. I worked closely with the Lifestyle Editor to create engaging, informative written content for audiences. At the end of this program, I generated upwards of 220,000 views on my content, which consisted of product reviews, listicles, and food items.</p></div>
                 </div>
         </div>
 
