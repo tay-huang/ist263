@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+    <title>Home</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <style>
+        .nav {float: right;}
+        .heading1{display: flex; text-align: left; margin: 10px; margin-top: 10px;border-radius: 1em; padding: 20px; margin: 20px;}
+       /* .paragraph {float: right; display: flex; text-align: right;}*/
+       .footer{max-width:100%; display: flex; border-radius: 1em; padding: 10px; flex: 1; margin: 10px; flex-wrap: wrap;}
+        .letsconnect{text-align: left; margin: 150px}
+        .contact{text-align: center; margin: 150px;}
+        .social-links{text-align: right; margin: 150px;}
+        .banner {max-width: 100%;}
+        .blurb {display: inline-grid; grid-template-columns: 50% 50%; background-color: #FBEAE7;}
+        .grid-item {padding: 20px;font-size: 15px; text-align: center;}
+        .name {text-align: right; flex-wrap: wrap;}
+        .paragraph {text-align: right;}
+        .blurb, .end, .nav, .footer{font-family: 'Lato', sans-serif;}
+
+        @media only screen and (max-width: 700px) 
+    { 
+        .nav a{max-width:100%; display: flex; background-color: #FBEAE7; border-radius: 1em; padding: 10px; flex: 1; margin: 10px; }
+        .name{text-align: right; flex-wrap: wrap;}
+        span {display: none;}
+        img a{max-width: 100%;}
+        .blurb{display: inline-grid; grid-template-columns: 100%; flex-wrap: wrap;}
+        /*.blurb{text-align: right; flex-wrap: wrap; padding: 80px;}*/
+        .name {max-width:100%; display: flex; flex-wrap: wrap;}
+        .end{max-width:100%; display: flex; flex-wrap: wrap;}
+    }
+    </style>
+</head>
+<body>
+    <nav>
+    <a href="home.html"><img src="../project/pictures/favicon.project.ico" alt ="logo"></a>
+    <div class="nav">
+        <a href="home.html">Home</a> <span>|</span>
+        <a href="editorial.html">Editorial Work</a> <span>|</span>
+        <a href="technical.html">Technical Projects</a>
+    </div>
+    </nav>
+    <h1 style="text-align: center; font-family: 'Lato', sans-serif;">About</h1>
+    <div class ="blurb">
+        <div class = "grid-item">
+        <div class="banner">
+        <img class="banner" src="../images/banner.png" alt ="banner"></div></div>
+    <!-- <div class="row2"> -->
+        <div class = "grid-item"><div class="name"><aside><h2>Hi, I'm Taylor.</h2><br>
+            <!-- <div class="paragraph">-->
+        In May 2023, I will be earning a dual degree from Syracuse University’s School of Information Studies and S.I. Newhouse School of Public Communications. I am studying information management and technology and magazine journalism, and my education helped shape me into a digital storyteller. I hope to apply both my technical and writing skills to opportunities that will make technology more accessible and digestible for diverse audiences. <br>
+        Outside of my work I am a huge foodie and traveler, and I love staying active. Feel free to contact me at <a href="mailto:taylorjhuang@gmail.com">taylorjhuang@gmail.com.</a></aside>
+            </div>
+    </div>
+     <!-- </div> -->
+    </div>
+
+    <footer>
+        <div class="footer">
+        <div class="letsconnect">
+        <h2>Let's Connect!</h2>
+        </div>
+        <div class="contact">
+                <p><a href="mailto:taylorjhuang@gmail.com">taylorjhuang@gmail.com</a><br>
+                718-913-0894<br>
+                </div>
+        <div class="social-links">
+                <a href="https://www.linkedin.com/in/taylorjhuang/"><img src="../images/LI-In-Bug.png" alt ="linkedin" width="60" height="50"></a>
+                <a href="https://twitter.com/taylorjhuang"><img src="../project/pictures/twitter.png" alt ="twitter" width="60" height="50"></a>
+            </div> 
+            </div>
+    
+        </footer>
+</body>
+</html>
+
+
